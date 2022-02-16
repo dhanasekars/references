@@ -27,5 +27,5 @@ conda create -n <envname> python=3.8
 ```
 Activate an environment
 ```
-source acticate <envname>
+source activate <envname>
 ```
