@@ -1,6 +1,31 @@
-# variable names
+# python notes
+
+## variable names
 
 * always small letters
 * Upper case has a special purpose, avoid in varialble names
 * underscore_allowed
 * use meaningful name
+
+
+# Git Reference
+
+To determine the details of the current local repo's remote details 
+ ```
+ git remote show origin 
+ ```
+ ```
+ git remote -v
+ ```
+ 
+ 
+ # Conda reference
+ 
+To create a new environment  
+``` 
+conda create -n <envname> python=3.8
+```
+Activate an environment
+```
+source acticate <envname>
+```
