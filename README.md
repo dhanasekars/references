@@ -18,6 +18,18 @@ To determine the details of the current local repo's remote details
  git remote -v
  ```
  
+ Initalise git
+ 
+ ```
+ git init
+ ```
+ 
+ Clone a remote repo
+ 
+ ```
+ git clone <url>
+ ```
+ 
  
  # Conda reference
  
