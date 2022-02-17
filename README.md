@@ -1,7 +1,0 @@
-#references
-
-#conda
-
-#git
-
-#python
