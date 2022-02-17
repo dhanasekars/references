@@ -30,6 +30,19 @@ To determine the details of the current local repo's remote details
  git clone <url>
  ```
  
+ After making changes , to commit changes with message 
+
+```
+git add .
+git commit -m "Story 182: fix benchmarks for speed"
+```
+
+Pushing to remote - How to Sync changes.
+
+```
+git push origin
+```
+
  
  # Conda reference
  
@@ -45,17 +58,4 @@ Update Anaconda navigator
 ```
 conda update anaconda-navigator
 ````
-
-After making changes , to commit changes with message 
-
-```
-git add .
-git commit -m "Story 182: fix benchmarks for speed"
-```
-
-Pushing to remote - How to Sync changes.
-
-```
-git push origin
-```
 
