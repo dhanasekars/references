@@ -53,7 +53,10 @@ Switch to a branch
 ```
 git checkout <branch_name>
 ```
-
+Pushing this new branch to remote
+```
+git push -u origin <new_branch_name>
+```
  
  # Conda reference
  
