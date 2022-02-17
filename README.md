@@ -29,3 +29,7 @@ Activate an environment
 ```
 source activate <envname>
 ```
+Update Anaconda navigator
+```
+conda update anaconda-navigator
+````
