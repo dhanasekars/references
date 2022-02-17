@@ -45,3 +45,17 @@ Update Anaconda navigator
 ```
 conda update anaconda-navigator
 ````
+
+After making changes , to commit changes with message 
+
+```
+git add .
+git commit -m "Story 182: fix benchmarks for speed"
+```
+
+Pushing to remote - How to Sync changes.
+
+```
+git push origin
+```
+
