@@ -43,6 +43,17 @@ Pushing to remote - How to Sync changes.
 git push origin
 ```
 
+Branching
+
+create a new branch
+```
+git branch <new_branch_name>
+```
+Switch to a branch
+```
+git checkout <branch_name>
+```
+
  
  # Conda reference
  
