@@ -1,13 +1,3 @@
-# python notes
-
-## variable names
-
-* always small letters
-* Upper case has a special purpose, avoid in varialble names
-* underscore_allowed
-* use meaningful name
-
-
 # Git Reference
 
 To determine the details of the current local repo's remote details 
