@@ -35,3 +35,16 @@ Traceback (most recent call last):
     print("Hourly wage: " + 20)
 TypeError: can only concatenate str (not "int") to str
 ```
+
+### Index Error
+
+```
+details = [ "name", 37, "Director"]
+print(details[3])
+```
+```
+Traceback (most recent call last):
+  File "4day.py", line 2, in <module>
+    print(details[3])
+IndexError: list index out of range
+```
