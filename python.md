@@ -1,3 +1,9 @@
+To find python path in mac OS X
+
+```
+which python
+```
+
 
 ## variable names
 
