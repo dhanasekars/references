@@ -24,4 +24,8 @@ To deactivate an active environment
 conda deactivate
 ```
  
- 
+To list all conda environment
+
+```
+conda info --env
+```
