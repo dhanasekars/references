@@ -35,6 +35,10 @@ git push origin
 
 Branching
 
+To show the current working branch 
+```
+git branch --show-current
+```
 create a new branch
 ```
 git branch <new_branch_name>
