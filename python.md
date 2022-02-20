@@ -42,6 +42,27 @@ Traceback (most recent call last):
 TypeError: can only concatenate str (not "int") to str
 ```
 
+example 2
+
+```
+duplicate = [{'count': 1},]
+print(type(duplicate))
+
+for i in duplicate:
+    print(duplicate[i])
+```
+
+Reference : https://stackoverflow.com/questions/26266425/typeerror-list-indices-must-be-integers-not-dict
+
+```
+duplicate = [{'count': 1},]
+print(type(duplicate))
+
+for i in duplicate:
+    print(i['count'])
+```
+
+
 ### Index Error
 
 ```
