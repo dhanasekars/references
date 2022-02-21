@@ -26,9 +26,15 @@ then
 ```
 git commit -m "initial commit"
 ```
-
-
-
+Create a repository in Githun
+Pulish the branch to Github
+```
+git remote add origin <github_repo_url>
+```
+Then push to the branch
+```
+git push -u origin main
+```
 
 To determine the details of the current local repo's remote details 
  ```
