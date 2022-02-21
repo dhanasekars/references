@@ -1,5 +1,28 @@
 # Git Reference
 
+
+Pushing inital commit to github
+
+Go to the project directory
+
+```
+git init
+```
+then
+
+```
+git add
+```
+
+then 
+
+```
+git commit -m "initial commit"
+```
+
+
+
+
 To determine the details of the current local repo's remote details 
  ```
  git remote show origin 
