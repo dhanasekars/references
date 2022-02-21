@@ -18,7 +18,7 @@ git init
 then
 
 ```
-git add
+git add .
 ```
 
 then 
