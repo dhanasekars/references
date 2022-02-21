@@ -5,6 +5,13 @@ Pushing inital commit to github
 
 Go to the project directory
 
+First add gitignore file
+
+```
+code .gitignore
+```
+The above is using vs code, and save the file
+
 ```
 git init
 ```
