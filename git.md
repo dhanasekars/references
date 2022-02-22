@@ -43,25 +43,11 @@ To determine the details of the current local repo's remote details
  ```
  git remote -v
  ```
- 
- Initalise git
- 
- ```
- git init
- ```
- 
- Clone a remote repo
- 
+  
  ```
  git clone <url>
  ```
- 
- After making changes , to commit changes with message 
 
-```
-git add .
-git commit -m "Story 182: fix benchmarks for speed"
-```
 
 Pushing to remote - How to Sync changes.
 
