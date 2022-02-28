@@ -73,3 +73,9 @@ Pushing this new branch to remote
 ```
 git push -u origin <new_branch_name>
 ```
+Restore to the last commit
+
+```
+git reset HEAD --hard   
+```
+
