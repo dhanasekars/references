@@ -3,6 +3,14 @@
 
 Pushing inital commit to github
 
+
+Create a repository in Github
+Publish the branch to Github
+```
+git clone <github_repo_url>>
+
+```
+
 Go to the project directory
 
 First add gitignore file
@@ -25,9 +33,6 @@ then
 
 ```
 git commit -m "initial commit"
-```
-Create a repository in Githun
-Pulish the branch to Github
 ```
 git remote add origin <github_repo_url>
 ```
