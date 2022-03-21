@@ -34,6 +34,7 @@ then
 ```
 git commit -m "initial commit"
 ```
+```
 git remote add origin <github_repo_url>
 ```
 Then push to the branch
