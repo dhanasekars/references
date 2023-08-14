@@ -400,7 +400,7 @@
 			"response": []
 		},
 		{
-			"name": "17_NoAccept",
+			"name": "18_NoAccept",
 			"id": "67a972b8-4b59-4a55-bb9b-1b40d8309e63",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true,
