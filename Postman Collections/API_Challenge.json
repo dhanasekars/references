@@ -317,6 +317,33 @@
 				"url": "{{baseURL}}todos"
 			},
 			"response": []
+		},
+		{
+			"name": "15_AcceptJSON",
+			"id": "3228f50a-6040-416b-bc12-f0be6dfa5b5c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "{{X-CHALLENGER}}",
+						"value": "{{X-Challenger}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"url": "{{baseURL}}todos"
+			},
+			"response": []
 		}
 	]
 }
