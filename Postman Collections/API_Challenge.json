@@ -420,6 +420,28 @@
 				"url": "{{baseURL}}todos"
 			},
 			"response": []
+		},
+		{
+			"name": "19_AcceptInvalid",
+			"id": "08bccb10-0126-4036-a466-d32f323d2ea9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "{{X-CHALLENGER}}",
+						"value": "{{X-Challenger}}",
+						"type": "text"
+					}
+				],
+				"url": "{{baseURL}}todos"
+			},
+			"response": []
 		}
 	]
 }
