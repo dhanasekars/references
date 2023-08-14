@@ -279,8 +279,15 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "OPTIONS",
+				"header": [
+					{
+						"key": "{{X-CHALLENGER}}",
+						"value": "{{X-Challenger}}",
+						"type": "text"
+					}
+				],
+				"url": "{{baseURL}}todos"
 			},
 			"response": []
 		}
