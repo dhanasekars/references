@@ -337,7 +337,7 @@
 					},
 					{
 						"key": "Accept",
-						"value": "application/xml",
+						"value": "application/JSON",
 						"type": "text"
 					}
 				],
