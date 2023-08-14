@@ -346,7 +346,7 @@
 			"response": []
 		},
 		{
-			"name": "16_AcceptDefauly",
+			"name": "16_AcceptDefault",
 			"id": "0333cef4-64b9-4d00-a7f6-224ae8d2cc3b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true,
