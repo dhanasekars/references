@@ -180,7 +180,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "10_fail_doneStatus",
 			"id": "d9603071-1129-4545-944c-64ae00f1478e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
