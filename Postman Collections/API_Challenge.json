@@ -415,11 +415,6 @@
 						"key": "{{X-CHALLENGER}}",
 						"value": "{{X-Challenger}}",
 						"type": "text"
-					},
-					{
-						"key": "Accept",
-						"value": "application/xml, application/json",
-						"type": "text"
 					}
 				],
 				"url": "{{baseURL}}todos"
