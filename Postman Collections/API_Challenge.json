@@ -344,6 +344,33 @@
 				"url": "{{baseURL}}todos"
 			},
 			"response": []
+		},
+		{
+			"name": "16_AcceptDefauly",
+			"id": "0333cef4-64b9-4d00-a7f6-224ae8d2cc3b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "{{X-CHALLENGER}}",
+						"value": "{{X-Challenger}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/JSON",
+						"type": "text"
+					}
+				],
+				"url": "{{baseURL}}todos"
+			},
+			"response": []
 		}
 	]
 }
