@@ -452,7 +452,12 @@
 			"name": "20_ContentTypeXML",
 			"id": "8dfa887f-d621-40e4-9568-85d18428dd8d",
 			"protocolProfileBehavior": {
-				"disableBodyPruning": true
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"accept": true,
+					"content-length": true,
+					"content-type": true
+				}
 			},
 			"request": {
 				"method": "POST",
@@ -461,8 +466,27 @@
 						"key": "{{X-CHALLENGER}}",
 						"value": "{{X-Challenger}}",
 						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
 					}
 				],
+				"body": {
+					"mode": "raw",
+					"raw": "<todo>\n    <doneStatus>false</doneStatus>\n    <title>test test</title>\n</todo>\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
 				"url": "{{baseURL}}/todos"
 			},
 			"response": []
