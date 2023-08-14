@@ -295,7 +295,10 @@
 			"name": "14_AcceptXML",
 			"id": "ce3ca3a8-9a0b-4745-bcbb-3ef54275fd58",
 			"protocolProfileBehavior": {
-				"disableBodyPruning": true
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"accept": true
+				}
 			},
 			"request": {
 				"method": "GET",
@@ -303,6 +306,11 @@
 					{
 						"key": "{{X-CHALLENGER}}",
 						"value": "{{X-Challenger}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml",
 						"type": "text"
 					}
 				],
