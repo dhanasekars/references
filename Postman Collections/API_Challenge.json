@@ -437,6 +437,11 @@
 						"key": "{{X-CHALLENGER}}",
 						"value": "{{X-Challenger}}",
 						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/gzip",
+						"type": "text"
 					}
 				],
 				"url": "{{baseURL}}todos"
