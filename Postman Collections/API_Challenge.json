@@ -299,7 +299,14 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [
+					{
+						"key": "{{X-CHALLENGER}}",
+						"value": "{{X-Challenger}}",
+						"type": "text"
+					}
+				],
+				"url": "{{baseURL}}todos"
 			},
 			"response": []
 		}
