@@ -447,6 +447,18 @@
 				"url": "{{baseURL}}todos"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "8dfa887f-d621-40e4-9568-85d18428dd8d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
