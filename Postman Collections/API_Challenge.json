@@ -156,7 +156,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Complete Challenge 08\"\n}",
+					"raw": "{\n    \"title\": \"Complete Challenge 08\",\n    \"doneStatus\": true\n}",
 					"options": {
 						"raw": {
 							"language": "json"
