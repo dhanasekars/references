@@ -449,7 +449,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "20_ContentTypeXML",
 			"id": "8dfa887f-d621-40e4-9568-85d18428dd8d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
