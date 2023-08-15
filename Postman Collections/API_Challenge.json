@@ -492,7 +492,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "21_ContentTypeJSON",
 			"id": "816b54fc-3b69-4a56-ac0f-bdd00cb4c586",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
