@@ -495,11 +495,41 @@
 			"name": "21_ContentTypeJSON",
 			"id": "816b54fc-3b69-4a56-ac0f-bdd00cb4c586",
 			"protocolProfileBehavior": {
-				"disableBodyPruning": true
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"accept": true,
+					"content-type": true
+				}
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [
+					{
+						"key": "{{X-CHALLENGER}}",
+						"value": "{{X-Challenger}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"Update Postmam\",\n    \"doneStatus\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{baseURL}}/todos"
 			},
 			"response": []
 		}
